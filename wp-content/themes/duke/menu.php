@@ -10,7 +10,7 @@ get_header(); ?>
 			<?php global $ancestor;	$childcats = get_categories(array('child_of' => 4 , 'order' => 'ASC')); ?>
 				<?php foreach ($childcats as $childcat) {
 			  		if (cat_is_ancestor_of($ancestor, $childcat->cat_ID) == false){ ?>					
-				    	<div id="<?php echo strtolower(str_replace(' ','-',$childcat->cat_name)); ?>" class="menu-item-cont futura-cond-med for-desktop">
+				    	<div id="<?php echo strtolower(str_replace(' ','-',$childcat->cat_name)); ?>" class="menu-item-cont">
 							<div class="menu-title"><?php echo $childcat->cat_name; ?></div>
 							<?php while ( have_posts() ) : the_post(); ?>
 								<span class="menu-item <?php foreach((get_the_category()) as $category) {echo strtolower(str_replace(' ','-',$category->cat_name));} ?>"><?php the_title(); ?>

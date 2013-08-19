@@ -82,9 +82,10 @@ body {overflow:hidden; overflow-x:auto;}
 .italic {font: italic 18px "adobe-caslon-pro",serif; font-weight: 600;}
 .menu, .story-sub {font: normal 20px "adobe-caslon-pro",serif; font-weight: 600;}
 /*.col1 div {position:relative; float:left; width:100%; margin-bottom:30px;}*/
-.menu-item-cont {float:left; width:100%; margin-top:25px;}
+.menu-item-cont {float:left; width:100%; margin-bottom:25px; background:url(images/duke/stars.png) center bottom no-repeat; padding-bottom:35px;}
+.col1 .menu-item-cont:last-child {background:none;}
 #family-pack .menu-item:last-child:before {content:"and ";}
-.info {flot:left; width:100%;}
+.info {float:left; width:100%; font-style:italic;}
 .col1 .menu span {position:relative; float:left; margin-right:20px;}
 .col1 .title {margin-bottom:0px !important;}
 #story .col1 {text-align:left;}
