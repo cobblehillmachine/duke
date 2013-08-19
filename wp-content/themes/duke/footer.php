@@ -30,7 +30,7 @@
 			</div>
 			<a id="facebook" href="http://www.facebook.com/OldSouthBbq" target="_blank"></a>
 			<a id="address" href="http://maps.google.com/maps?q=318+Village+Road+Northeast,+Leland,+North+Carolina+28451&hl=en&client=firefox-a&hnear=318+Village+Rd+NE,+Leland,+North+Carolina+28451&gl=us&t=m&z=16" target="_blank">318 Village Rd, Leland   •   North Carolina 28451</a>
-			<a id="credit" href="http://www.cobblehilldigital.com" target="_blank">Site by cobble hill</a>	
+			<a id="credit" href="http://cobblehilldigital.com" target="_blank">Site by cobble hill</a>	
 		</div>
 
 

@@ -6,6 +6,8 @@ $(document).ready(function() {
 	infiniteLoop();
 	//setRealbodyHeight();
 	$('.cycloneslider').fadeIn('slow');
+	showMenuItems();
+	$('.menu-item-cont .menu-item').not(':last-child').append(',');
 	
 });
 
@@ -111,7 +113,16 @@ function infiniteLoop() {
 
 }
 
-
+function showMenuItems() {
+	$('.menu-item-cont').each(function() {
+		var id = $(this).attr('id');
+		$(this).children('.menu-item').each(function() {
+			if (!$(this).hasClass(id)) {
+				$(this).remove();
+			}		
+		});
+	});
+}
 
 
 

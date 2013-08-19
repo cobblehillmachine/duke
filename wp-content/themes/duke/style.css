@@ -76,12 +76,15 @@ body {overflow:hidden; overflow-x:auto;}
 		background:#fff; border:1px solid #b6b6b6; box-shadow:0px 0px 1px 1px #b6b6b6;}
 .featured-image img {width:434px !important; height:293px !important;}
 .logo2 {position:relative; float:right; margin-top:-205px; margin-right:-65px;}
-.title {font: normal 30px "adobe-caslon-pro",serif; font-weight: 600; text-align:center;}
+.title, .menu-title {font: normal 30px "adobe-caslon-pro",serif; font-weight: 600; text-align:center; color:#615244;}
 .price {font:normal 36px 'cartonslab'; margin-bottom:20px !important;}
 .subtitle {font:normal 20px 'cartonslab'; margin-bottom:10px !important;}
 .italic {font: italic 18px "adobe-caslon-pro",serif; font-weight: 600;}
 .menu, .story-sub {font: normal 20px "adobe-caslon-pro",serif; font-weight: 600;}
-.col1 div {position:relative; float:left; width:100%; margin-bottom:30px;}
+/*.col1 div {position:relative; float:left; width:100%; margin-bottom:30px;}*/
+.menu-item-cont {float:left; width:100%; margin-top:25px;}
+#family-pack .menu-item:last-child:before {content:"and ";}
+.info {flot:left; width:100%;}
 .col1 .menu span {position:relative; float:left; margin-right:20px;}
 .col1 .title {margin-bottom:0px !important;}
 #story .col1 {text-align:left;}
